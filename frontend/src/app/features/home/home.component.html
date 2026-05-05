@@ -1,0 +1,73 @@
+<div class="hero">
+  <div class="hero-content">
+    <h1>Welcome to Our E-Commerce Store</h1>
+    <p>Discover amazing products at unbeatable prices</p>
+    <button (click)="shopNow()" class="btn btn-primary">Start Shopping</button>
+  </div>
+</div>
+
+<div class="container">
+  <section class="featured-products">
+    <h2>Featured Products</h2>
+    
+    <div *ngIf="loading" class="loading">
+      <p>Loading products...</p>
+    </div>
+
+    <div *ngIf="error" class="error">
+      <p>{{ error }}</p>
+    </div>
+
+    <div *ngIf="!loading && featuredProducts.length > 0" class="grid grid-3">
+      <div *ngFor="let product of featuredProducts" class="product-card">
+        <div class="product-image">
+          <img [src]="product.images?.[0]?.url || 'https://via.placeholder.com/300'"
+               [alt]="product.name" />
+        </div>
+        <div class="product-info">
+          <h3>{{ product.name }}</h3>
+          <p class="product-category">{{ product.category }}</p>
+          <div class="product-price">
+            <span *ngIf="product.discountPrice" class="original-price">${{ product.price }}</span>
+            <span class="current-price">${{ product.discountPrice || product.price }}</span>
+          </div>
+          <div class="product-rating">
+            <span class="stars">★★★★☆</span>
+            <span class="rating-count">({{ product.ratings?.count || 0 }} reviews)</span>
+          </div>
+          <button (click)="viewProduct(product._id)" class="btn btn-secondary">View Details</button>
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="!loading && featuredProducts.length === 0" class="no-products">
+      <p>No featured products available</p>
+    </div>
+  </section>
+
+  <section class="features">
+    <h2>Why Shop With Us?</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🚚</div>
+        <h3>Fast Shipping</h3>
+        <p>Get your orders delivered quickly</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💳</div>
+        <h3>Secure Payment</h3>
+        <p>Safe and secure payment options</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">↩️</div>
+        <h3>Easy Returns</h3>
+        <p>30-day return policy</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Best Prices</h3>
+        <p>Guaranteed lowest prices</p>
+      </div>
+    </div>
+  </section>
+</div>
