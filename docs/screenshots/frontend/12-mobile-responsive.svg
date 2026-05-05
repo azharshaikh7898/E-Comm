@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Mobile Responsive Screenshot Placeholder</title>
+  <desc id="desc">A styled placeholder image for the mobile responsive screenshot.</desc>
+  <rect width="1280" height="720" fill="#111827"/>
+  <rect x="470" y="90" width="340" height="540" rx="44" fill="#0b1220" stroke="#64748b" stroke-width="4"/>
+  <rect x="505" y="150" width="270" height="380" rx="26" fill="#1e293b"/>
+  <rect x="540" y="540" width="200" height="26" rx="13" fill="#334155"/>
+  <text x="640" y="215" text-anchor="middle" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700">Mobile</text>
+  <text x="640" y="260" text-anchor="middle" fill="#cbd5e1" font-family="Arial, Helvetica, sans-serif" font-size="20">Responsive layout</text>
+</svg>

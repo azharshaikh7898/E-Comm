@@ -47,24 +47,24 @@ Admin:     admin@example.com / admin123
 
 | **Login** | **Products** | **Cart** |
 |---|---|---|
-| ![Login](docs/screenshots/frontend/01-login.png) | ![Products](docs/screenshots/frontend/04-products.png) | ![Cart](docs/screenshots/frontend/06-cart.png) |
+| ![Login](docs/screenshots/frontend/01-login.svg) | ![Products](docs/screenshots/frontend/04-products.svg) | ![Cart](docs/screenshots/frontend/06-cart.svg) |
 | User authentication | Browse & search products | Add items, manage quantities |
 
 | **Checkout** | **Order History** | **Admin Dashboard** |
 |---|---|---|
-| ![Checkout](docs/screenshots/frontend/07-checkout.png) | ![Orders](docs/screenshots/frontend/09-order-history.png) | ![Admin](docs/screenshots/frontend/10-admin-dashboard.png) |
+| ![Checkout](docs/screenshots/frontend/07-checkout.svg) | ![Orders](docs/screenshots/frontend/09-order-history.svg) | ![Admin](docs/screenshots/frontend/10-admin-dashboard.svg) |
 | Shipping & payment | Track orders | Manage products & orders |
 
 | **Product Detail** | **Registration** | **Mobile** |
 |---|---|---|
-| ![Product](docs/screenshots/frontend/05-product-detail.png) | ![Register](docs/screenshots/frontend/02-register.png) | ![Mobile](docs/screenshots/frontend/12-mobile-responsive.png) |
+| ![Product](docs/screenshots/frontend/05-product-detail.svg) | ![Register](docs/screenshots/frontend/02-register.svg) | ![Mobile](docs/screenshots/frontend/12-mobile-responsive.svg) |
 | Reviews & ratings | New user signup | Responsive design |
 
 #### 🔌 Backend & Infrastructure Screenshots
 
 | **API Testing** | **Docker Deployment** | **Database** |
 |---|---|---|
-| ![API](docs/screenshots/backend/13-api-login.png) | ![Docker](docs/screenshots/backend/15-docker-running.png) | ![MongoDB](docs/screenshots/database/16-mongodb-data.png) |
+| ![API](docs/screenshots/backend/13-api-login.svg) | ![Docker](docs/screenshots/backend/15-docker-running.svg) | ![MongoDB](docs/screenshots/database/16-mongodb-data.svg) |
 | REST endpoints | Services running | Seeded data |
 
 ### ✅ Application Workflow
